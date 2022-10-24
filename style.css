@@ -116,12 +116,17 @@ footer{
 .footerdiv2>p{
     text-align: center;
     color: rgb(70, 60, 60);
-    padding: 60px 0px 20px 0px;
+    /* -----------padding use koreo text k vertically center a ana jaito--------- */
+    /* padding: 60px 0px 20px 0px; */
+    height: 70px;
+    line-height: 130px;
 }
 .footerdiv2>h1{
     text-align: center;
     color: rgb(128, 120, 120);
     -webkit-text-stroke: 1px rgb(46, 41, 41);
+    height: 85px;
+    line-height: 40px;
 }
 footer>p{
     margin-top: 180px;
